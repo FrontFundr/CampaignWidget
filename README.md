@@ -34,7 +34,7 @@ There are two optional parameters: `id` and `max`.
 
 `var id = ""; // example: "45"` becomes: `var id = "45"; // example: "45"`
 
-**Max** is the maximum number of results to return. To alther the max param edit this line within the widget:
+**Max** is the maximum number of results to return. To alter the max param edit this line within the widget:
 
 `var max = ""; // example: "3"` becomes: `var max = "3"; // example: "3"`
 
