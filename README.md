@@ -38,6 +38,27 @@ There are two optional parameters: `id` and `max`.
 
 `var max = ""; // example: "3"` becomes: `var max = "3"; // example: "3"`
 
+**Example 1 - Specific Campaign**
+
+```javascript
+<!-- FrontFundr Campigns Widget Start -->
+<script src="https://www.frontfundr.com/Scripts/iframeResizer.min.js"></script>
+<style> iframe { width: 100%; } </style>
+<iframe id="ffCampaignWidgetFrame" scrolling="no"></iframe>
+<script>
+    // id of specific campaign
+    var id = "45"; // example: "45"
+
+    // max number of campigns to return
+    var max = ""; // example: "3"
+
+    // id takes precedence over max
+
+    document.getElementById("ffCampaignWidgetFrame").src = "https://www.frontfundr.com/Content/Widgets/CampaignWidget.html?id=" + id + "&max=" + max;
+</script>
+<script>iFrameResize({log:false})</script>
+<!-- FrontFundr Campigns Widget End -->
+```
 
 ---
 
@@ -75,7 +96,7 @@ Result:
 }
 ```
 
-**Example 1 - Two Campaigns**
+**Example 2 - Two Campaigns**
 
 `https://www.frontfundr.com/api/campaign/getwithmax/2`
 
