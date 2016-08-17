@@ -82,7 +82,50 @@ Returns all relevant data for current live campaigns in a random order.
 
 The `id` and `max` parameters are optional. The id param allows you to return a specific campaign. The max param allows you to define a count or maximum amount of campaigns to return.
 
-**Example 1 - Specific Campaign**
+
+**Example 1 - All Campaigns**
+
+`https://www.frontfundr.com/api/campaign`
+
+```
+[  
+   {  
+      "Id":"41",
+      "ImageSrc":"www.frontfundr.com/Content/Upload/company_1223_20160601NewLogoforlaunch.png_20160601182554663.png",
+      "Title":"Persephone",
+      "TargetRaise":"$500,000",
+      "EquityOffered":"12 %",
+      "MinInvestment":"$250",
+      "ClosingDay":"8/31/2016",
+      "PercentRaised":"85%",
+      "Description":"Farming, food, community and beer are what we do. World class, award-winning beer, Certified B Corp business practices and a commitment to having a positive impact drives our growth and passion."
+   },
+   {  
+      "Id":"24",
+      "ImageSrc":"www.frontfundr.com/Content/Upload/company_1169_Resized Logo.png_20151127005249815.png",
+      "Title":"The Networking Effect",
+      "TargetRaise":"$450,000",
+      "EquityOffered":"22 %",
+      "MinInvestment":"$25,000",
+      "ClosingDay":"8/31/2016",
+      "PercentRaised":"47%",
+      "Description":"Our Vision is to connect small business people in an online community to help each realize their potential, providing the step-by-step process to maximize efficiency with their networking efforts."
+   },
+   {  
+      "Id":"45",
+      "ImageSrc":"www.frontfundr.com/Content/Upload/company_1285_HitchPlanet_New_FMT.jpg_20160722160833045.jpg",
+      "Title":"HitchPlanet",
+      "TargetRaise":"$250,000",
+      "EquityOffered":"12 %",
+      "MinInvestment":"$500",
+      "ClosingDay":"11/4/2016",
+      "PercentRaised":"2%",
+      "Description":"HitchPlanet aims to democratize travel between cities by using technology to help people share rides in cars, creating a more social, affordable and sustainable intercity transport system for all."
+   }
+]
+```
+
+**Example 2 - Specific Campaign**
 
 `https://www.frontfundr.com/api/campaign/45`
 
@@ -102,7 +145,7 @@ Result:
 }
 ```
 
-**Example 2 - Two Campaigns**
+**Example 3 - Two Campaigns**
 
 `https://www.frontfundr.com/api/campaign/getwithmax/2`
 
