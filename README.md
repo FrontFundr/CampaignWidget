@@ -74,9 +74,9 @@ Returns all relevant data for current live campaigns in a random order.
 
 **Base URLs for API**
 
-`https://www.frontfundr.com/api/campaign/<id>'
+`https://www.frontfundr.com/api/campaign/{id}'
 
-`https://www.frontfundr.com/api/campaign/getwithmax/<max>'
+`https://www.frontfundr.com/api/campaign/getwithmax/{max}'
 
 ##Parameters
 
