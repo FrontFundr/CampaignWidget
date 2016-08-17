@@ -23,9 +23,14 @@ The widget return all current live FrontFundr campaigns in a random order. The w
 <!-- FrontFundr Campigns Widget End -->
 ```
 
-**Demo**
+**Demos**
 
-[https://www.frontfundr.com/Content/Widgets/CampaignWidgetExample.html](https://www.frontfundr.com/Content/Widgets/CampaignWidgetExample.html)
+All Campaigns:
+
+[https://www.frontfundr.com/Content/Widgets/CampaignWidgetExample1.html](https://www.frontfundr.com/Content/Widgets/CampaignWidgetExample1.html)
+
+Specific Campaign:
+[https://www.frontfundr.com/Content/Widgets/CampaignWidgetExample2.html](https://www.frontfundr.com/Content/Widgets/CampaignWidgetExample2.html)
 
 ##Parameters
 There are two optional parameters: `id` and `max`.
