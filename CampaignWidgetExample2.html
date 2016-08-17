@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="/Content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/Content/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <!-- FrontFundr Campigns Widget Start -->
+                <script src="https://www.frontfundr.com/Scripts/iframeResizer.min.js"></script>
+                <style> iframe { width: 100%; } </style>
+                <iframe id="ffCampaignWidgetFrame" scrolling="no"></iframe>
+                <script>
+                    // id of specific campaign
+                    var id = "45"; // example: "45"
+
+                    // max number of campigns to return
+                    var max = ""; // example: "3"
+
+                    // id takes precedence over max
+
+                    document.getElementById("ffCampaignWidgetFrame").src = "https://www.frontfundr.com/Content/Widgets/CampaignWidget.html?id=" + id + "&max=" + max;
+                </script>
+                <script>iFrameResize({log:false})</script>
+                <!-- FrontFundr Campigns Widget End -->
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
