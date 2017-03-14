@@ -127,7 +127,7 @@ The `id` and `max` parameters are optional. The id param allows you to return a 
 
 **Example 2 - Specific Campaign**
 
-`https://www.frontfundr.com/api/campaign/47`
+`https://www.frontfundr.com/api/campaign/46`
 
 Result:
 
